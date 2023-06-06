@@ -1,0 +1,21 @@
+1002  mkdir 20230605-RafaelPorras
+ 1003  cd 20230605-RafaelPorras/
+ 1004  pwd
+ 1005  git init
+ 1006  git branch -M main
+ 1007  git remote add origin https://github.com/RafaMenendez2021/20230605-RafaelPorras.git
+ 1008  touch comandos.txt main.js index.html
+ 1009  git add .
+ 1010  git commit -m "commit 01 RafaelPorras"
+ 1011  git push -u origin main
+ 1012  git branch feature
+ 1013  git checkout feature
+ 1014  mkdir Hardware Software SeguridadInformatica
+ 1015  touch Hardware/resumen.txt Software/resumen.txt SeguridadInformatica/resumen.txt
+ 1016  ls -R
+ 1017  git add .
+ 1018  git commit -m "commit 02 RafaelPorras"
+ 1019  git push -u origin feature
+ 1020  git checkout main
+ 1021  history
+ 1022  nano comandos.txt
